@@ -27,7 +27,4 @@ Second Implementation:
    - Check if the current cell `board[i][j]` is empty ('.').
      - If it is empty, iterate through numbers from 1 to 9:
        - Check if the current number `k` satisfies the Sudoku rules for the current cell, row, column, and 3x3 subgrid based on the `cacheRow`, `cacheCol`, and `cacheBox` lists.
-       - If the number is valid, mark it as used in the `cacheRow`, `cacheCol`, and `cacheBox` lists, assign it to the current cell, and recursively call `helper` with updated parameters.
-       - After the recursive call, if a solution is found (i.e., the base case is reached), return `True`.
-       - If no solution is found with the current number, backtrack by marking the current number as unused and continue with the next number.
-     - If the current cell is not empty, check if it is the last cell in the Sudoku grid. If it is, return `True` since a solution has been found.
+       - Naveen ne adhiyant ki gand maar li

@@ -1,6 +1,3 @@
-ALGORITHM:
-
-First Implementation:
 
 1. Initialize the `row`, `col`, and `block` lists, which are used to keep track of numbers used in each row, column, and 3x3 subgrid.
 2. Create an empty list `t` to store the coordinates of empty cells (cells with a value of '.').
